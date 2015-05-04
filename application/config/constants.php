@@ -84,3 +84,11 @@ define('EXIT_USER_INPUT', 7); // invalid user input
 define('EXIT_DATABASE', 8); // database error
 define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+/**
+ * --------------------------
+ * Define Your Constants Here
+ * --------------------------
+ */
+ define('css_url', 'http://localhost/shiva/static/css');
+ define('js_url', 'http://localhost/shiva/static/js');
+ define('image_url', 'http://localhost/shiva/static/images');
