@@ -7,6 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title><?php echo $page_title; ?></title>
 	<link rel="icon" type="text/css" href="<?php echo base_url(); ?>static/images/favicon.png">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/styles/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>static/styles/main.css">
 	<script type="text/javascript" src="<?php echo base_url(); ?>static/js/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>static/js/bootstrap.min.js"></script>
 </head>

@@ -1,0 +1,18 @@
+.list-group-item:hover {
+	background: #aaaecc;
+}
+#footer {
+	background: #abcdef url('../images/bg.png');
+}
+#footer h3 {
+	background: #aacc90;
+	font-family: 'comic sans';
+	padding: 5px;
+	border-bottom: 2px solid green;
+}
+#nav-bar {
+	padding-top: 5px; 
+	background: green;
+	color: black;
+	font-size: 1.3em;
+}

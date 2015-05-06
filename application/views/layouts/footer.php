@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
-<div class="container" style="background:#adaabb">
+<div class="container-fluid" id="footer">
 <div class="row">
 	<div class="col-md-3">
 		<h3>Menu</h3>
