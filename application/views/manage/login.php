@@ -31,12 +31,26 @@ $passErr=$loginErr=$unameErr="";
 	<div class="form-group">
 		<div class="col-md-5">
 		<label>Log In As :&dash;</label>
-		<select data-toggle="select" class="form-control select select-default" id="selection">
+		<select data-toggle="select" class="form-control select select-default" id="post">
           <option value="0" selected>Super Administrator</option>
           <option value="1">Department Administrator</option>
           <option value="2">Department Member</option>
           <option value="3">Inventory Member</option>
         </select>
+		</div>
+		<input type="hidden" id="hidden" name="hidden" value="" />
+	</div>
+	<div class="form-group" id="dept">
+		<div class="col-md-5">
+		<label>Choose Department :&dash;</label><br />
+		<input type="radio" name="group1" value="ece" checked> ECE</input><br />
+		<input type="radio" name="group1" value="cse"> CSE</input><br />
+		<input type="radio" name="group1" value="eee"> EEE</input><br />
+		<input type="radio" name="group1" value="mech"> Mech</input><br />
+		<input type="radio" name="group1" value="civil"> Civil</input><br />
+		<input type="radio" name="group1" value="chem"> Chem</input><br />
+		<input type="radio" name="group1" value="mme"> MME</input><br />
+		<input type="radio" name="group1" value="biotech"> BioTech </input>
 		</div>
 	</div>
 	<div class="form-group">
@@ -48,11 +62,18 @@ $passErr=$loginErr=$unameErr="";
 </div>
 </div>
 <script type="text/javascript">
-	var select=document.getElementById('selction');
-	var item=select[];
-	$(document).ready(function(){
-		$('#selction').click(function(){
-
-		});
+	$(function() {
+      	$("#post").change(function(){
+      		var pName= $('option:selected', this).attr('value');
+      		//alert(pName);
+      		$('#hidden').val(pName);
+      		if (pName=='1' || pName=='2') {
+      			$("#dept").show();
+      			//alert('show');
+      		} else {
+      			$("#dept").hide();
+      			//alert('hide');
+      		}
+   		});
 	});
 </script>

@@ -16,3 +16,10 @@
 	color: black;
 	font-size: 1.3em;
 }
+thead tr td {
+	background: black;
+	color: white;
+}
+tr td {
+	border: 1px solid black;
+}

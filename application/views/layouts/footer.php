@@ -39,6 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</ul>
 	</div>
 </div>
+<p class="text-align:center">&copy;  NITW <?php echo Date("Y"); ?> . All rights reserved.</p>
 </div>
 </body>
 </html>
