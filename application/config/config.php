@@ -18,7 +18,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url'] = 'http://localhost/shiva/';
-$config['site_url'] = 'http://localhost/shiva/';
 
 /*
 |--------------------------------------------------------------------------
@@ -306,7 +305,8 @@ $config['cache_query_string'] = FALSE;
 | http://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+ 	
+$config['encryption_key'] = 'REALLY_LONG_NUMBER';
 
 /*
 |--------------------------------------------------------------------------

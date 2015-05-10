@@ -24,6 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</div>		
 	<div class="col-md-3">
 		<h3>Contact :&dash;</h3>
+		<p>Email :&dash; <a href="mailto:wsdc.nitw@gmail.com">wsdc.nitw@gmail.com</a></p>
+		<p>Mob :&dash; 0870-2560487</p>
 		<b>NIT Warangal</b>
 		<p>Hanamkonda, Warangal&dash;Hyderabad Road, NH&dash;203, </p>
 		<p>Warangal, Telangana, India.</p>
